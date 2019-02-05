@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AP2112K-3.3TRG1
+#
+DEF AP2112K-3.3TRG1 U 0 40 Y Y 1 L N
+F0 "U" -302 340 50 H V L BNN
+F1 "AP2112K-3.3TRG1" -301 -459 50 H V L BNN
+F2 "SOT95P285X140-5N" 0 0 50 H I L BNN
+F3 "Diodes Inc." 0 0 50 H I L BNN
+F4 "SOT-753 Diodes Inc." 0 0 50 H I L BNN
+F5 "https://www.digikey.com/product-detail/en/diodes-incorporated/AP2112K-3.3TRG1/AP2112K-3.3TRG1DICT-ND/4505257?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "AP2112K-3.3TRG1DICT-ND" 0 0 50 H I L BNN
+F7 "AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5" 0 0 50 H I L BNN
+F8 "AP2112K-3.3TRG1" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -300 300 300 300 N
+P 2 0 0 16 300 300 300 -300 N
+P 2 0 0 16 300 -300 -300 -300 N
+P 2 0 0 16 -300 -300 -300 300 N
+X GND 2 500 -200 200 L 40 40 0 0 W 
+X VIN 1 -500 200 200 R 40 40 0 0 W 
+X VOUT 5 500 200 200 L 40 40 0 0 W 
+X EN 3 -500 0 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library

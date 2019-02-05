@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name MCP9808-E&slash_MS)(type KiCad)(uri ${KIPRJMOD}/library/MCP9808-E&slash_MS.pretty)(options "")(descr ""))
+  (lib (name AP2112K-3.3TRG1)(type Legacy)(uri ${KIPRJMOD}/library/AP2112K-3.3TRG1.mod)(options "")(descr ""))
+  (lib (name ESP-WROOM-02)(type Legacy)(uri ${KIPRJMOD}/library/ESP-WROOM-02.mod)(options "")(descr ""))
+  (lib (name S2B-PH-K-S_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/library/S2B-PH-K-S_LF__SN_.mod)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+)
