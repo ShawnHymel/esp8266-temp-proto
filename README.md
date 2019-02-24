@@ -3,7 +3,7 @@ ESP8266 Temperature Sensor Prototype
 
 ![ESP8266-WROOM-02 Temperature Sensor Throwie](https://raw.githubusercontent.com/ShawnHymel/esp8266-temp-proto/master/Images/esp8266-throwie-programming.jpg)
 
-This is a quick prototpye designed for the Bantam Tools Desktop PCB Milling Machine. It uses an ESP8266-WROOM-02 module connected to an MCP9808 temperature sensor. It will run off a single-cell LiPo battery, but there is no protection, undervoltage detection, or charge circuitry onboard. The idea is simple: read from temperature sensor and post to a server at regular intervals. It should work as a simple, IoT Temperature Sensor Throwie.
+This is a quick prototype designed for the Bantam Tools Desktop PCB Milling Machine. It uses an ESP8266-WROOM-02 module connected to an MCP9808 temperature sensor. It will run off a single-cell LiPo battery, but there is no protection, undervoltage detection, or charge circuitry onboard. The idea is simple: read from temperature sensor and post to a server at regular intervals. It should work as a simple, IoT Temperature Sensor Throwie.
 
 To Build
 --------
