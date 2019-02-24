@@ -43,7 +43,9 @@ LED Blink Codes
 ---------------
 
 Slow blink: Connecting to WiFi
+
 Fast blink: Error
+
 Steady on: Posting to server
 
 License
@@ -51,4 +53,4 @@ License
 
 The hardware (schematic and PCB layout) is licensed under Creative Commons 4.0 BY [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-The software (Arduino and Python code found in Firmware/ and Software/) is [Beerware]https://en.wikipedia.org/wiki/Beerware).
+The software (Arduino and Python code found in Firmware/ and Software/) is [Beerware](https://en.wikipedia.org/wiki/Beerware).
