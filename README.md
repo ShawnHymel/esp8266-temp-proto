@@ -1,12 +1,14 @@
 ESP8266 Temperature Sensor Prototype
 ====================================
 
-![alt text](https://raw.githubusercontent.com/ShawnHymel/esp8266-temp-proto/master/Images/esp8266-throwie-programming.jpg)
+![ESP8266-WROOM-02 Temperature Sensor Throwie](https://raw.githubusercontent.com/ShawnHymel/esp8266-temp-proto/master/Images/esp8266-throwie-programming.jpg)
 
 This is a quick prototpye designed for the Bantam Tools Desktop PCB Milling Machine. It uses an ESP8266-WROOM-02 module connected to an MCP9808 temperature sensor. It will run off a single-cell LiPo battery, but there is no protection, undervoltage detection, or charge circuitry onboard. The idea is simple: read from temperature sensor and post to a server at regular intervals. It should work as a simple, IoT Temperature Sensor Throwie.
 
 To Build
 --------
+
+Schematic found at *Hardware/esp8266-temp-sensor-schematic.pdf*.
 
 Gerbers are found in the *Hardware/gerbers* folder. Mill them or send them off to a PCB fab house. If you want solder mask and silk screen, you'll have to run your own Gerbers from within KiCad. Also, I didn't move the REFDES labels around to make them look nice (since I was making this board on a mill). You'll probably want to do that, too.
 
@@ -35,3 +37,18 @@ To Run Server
 
 Install Python (this was tested on Python 3.7). Run *Software/test-srever.py*. With your server running and ESP8266 powered, you should see temperature posted every ~10 seconds.
 
+![Temperature Sensor Throwie posting to server console](https://raw.githubusercontent.com/ShawnHymel/esp8266-temp-proto/master/Images/server-console-throwie.jpg)
+
+LED Blink Codes
+---------------
+
+Slow blink: Connecting to WiFi
+Fast blink: Error
+Steady on: Posting to server
+
+License
+-------
+
+The hardware (schematic and PCB layout) is licensed under Creative Commons 4.0 BY [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+The software (Arduino and Python code found in Firmware/ and Software/) is [Beerware]https://en.wikipedia.org/wiki/Beerware).
